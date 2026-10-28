@@ -1,0 +1,36 @@
+<!-- Requirements:
+1. Create an XML file containing details of at least 5 employees.
+2. Each employee should have an employee ID, name, department, designation, and salary. -->
+
+<employees>
+<employee id="1">
+<name>suresh</name>
+<department>hr</department>
+<designation>software</designation>
+<salary>30k</salary>
+</employee>
+<employee id="2">
+<name>ramesh</name>
+<department>hr</department>
+<designation>software</designation>
+<salary>30k</salary>
+</employee>
+<employee id="3">
+<name>krish</name>
+<department>hr</department>
+<designation>software</designation>
+<salary>30k</salary>
+</employee>
+<employee id="4">
+<name>chai</name>
+<department>hr</department>
+<designation>software</designation>
+<salary>30k</salary>
+</employee>
+<employee id="5">
+<name>Manoj</name>
+<department>hr</department>
+<designation>software</designation>
+<salary>30k</salary>
+</employee>
+</employees>
