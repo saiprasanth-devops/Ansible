@@ -1,0 +1,55 @@
+[
+
+{
+    "instanceId":"2738833",
+    "instanceName":"user",
+    "instanceType":"server1",
+    "operatingSystem":"linux",
+    "privateIpAddress":"172.91.91.12",
+    "instanceState":"runnning",
+    "environment":"sit"
+
+},
+{
+    "instanceId":"273886633",
+    "instanceName":"cart",
+    "instanceType":"server2",
+    "operatingSystem":"linux",
+    "privateIpAddress":"172.91.91.12",
+    "instanceState":"stopped",
+    "environment":"sit"
+
+},
+{
+    "instanceId":"273118833",
+    "instanceName":"payment",
+    "instanceType":"server3",
+    "operatingSystem":"linux",
+    "privateIpAddress":"172.91.91.12",
+    "instanceState":"runnning",
+    "environment":"sit"
+
+},
+{
+    "instanceId":"273228833",
+    "instanceName":"shipping",
+    "instanceType":"server4",
+    "operatingSystem":"linux",
+    "privateIpAddress":"172.91.91.12",
+    "instanceState":"runnning",
+    "environment":"sit"
+
+},
+{
+    "instanceId":"273833833",
+    "instanceName":"catalogue",
+    "instanceType":"server5",
+    "operatingSystem":"linux",
+    "privateIpAddress":"172.91.91.12",
+    "instanceState":"runnning",
+    "environment":"sit"
+
+}
+
+
+]
