@@ -17,7 +17,7 @@
     "operatingSystem":"linux",
     "privateIpAddress":"172.91.91.12",
     "instanceState":"stopped",
-    "environment":"sit"
+    "environment":"uat"
 
 },
 {
@@ -27,7 +27,7 @@
     "operatingSystem":"linux",
     "privateIpAddress":"172.91.91.12",
     "instanceState":"runnning",
-    "environment":"sit"
+    "environment":"prod"
 
 },
 {
@@ -37,7 +37,7 @@
     "operatingSystem":"linux",
     "privateIpAddress":"172.91.91.12",
     "instanceState":"runnning",
-    "environment":"sit"
+    "environment":"perf"
 
 },
 {
@@ -47,7 +47,7 @@
     "operatingSystem":"linux",
     "privateIpAddress":"172.91.91.12",
     "instanceState":"runnning",
-    "environment":"sit"
+    "environment":"prepod"
 
 }
 
