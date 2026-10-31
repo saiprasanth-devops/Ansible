@@ -1,0 +1,10 @@
+- firstname: "sai prasanth"
+  address:
+  - type: "parmanent"
+  - type: "temporary"
+  skills:
+   os: "windows"
+   version: "24"
+
+
+  

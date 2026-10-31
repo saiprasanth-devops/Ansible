@@ -1,0 +1,32 @@
+firstname: "hello"
+lastname: "world"
+sessions:
+- session: 1
+- seesion: 2
+- session: 3
+date:
+ date1: "today"
+ date2: "yesterday"
+
+
+
+#json for the above yaml
+#  {
+#   "firstname": "hello",
+#   "lastname": "world",
+#   "sessions": [
+#     {
+#       "session": 1
+#     },
+#     {
+#       "seesion": 2
+#     },
+#     {
+#       "session": 3
+#     }
+#   ],
+#   "date": {
+#     "date1": "today",
+#     "date2": "yesterday"
+#   }
+# }
