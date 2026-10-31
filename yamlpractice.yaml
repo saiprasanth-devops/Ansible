@@ -1,0 +1,11 @@
+    data: "data"
+    services: 
+    - service: "roboshop"
+      name: "servicefile"
+      ipaddress: "127.11.11.99" 
+    - service: "roboshop"
+      name: "servicefile"
+      ipaddress: "127.11.11.99"
+    data2:
+      "resource": "dashboard"
+      "server": "ec2-user"
