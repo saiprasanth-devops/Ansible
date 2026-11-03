@@ -6,5 +6,5 @@
   tasks:
     -  name: "adding the variables"
        ansible.builtin.debug:
-       msg:
+        msg:
         - "this is the data" 
