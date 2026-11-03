@@ -19,8 +19,9 @@
     
     - name: "print the values"
       ansible.builtin.debug:
-        msg: "The target environment is {{ data }}"
-        msg: "The target environment is {{ server }}"
+        msg:
+          - "The target environment is {{ data }}"
+          - "The target environment is {{ server }}"
 
 
 
