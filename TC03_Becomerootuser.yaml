@@ -11,7 +11,7 @@
 - name: "playbook 2"
   hosts: local
   connection: local
-  becomes: yes
+  become: yes
   tasks:
     - name: "check the sudo and for the task2"
       ansible.builtin.debug:
