@@ -1,0 +1,10 @@
+- name: "Data to load the file in to var"
+  hosts: local
+  become: yes
+  vars-files:
+    - onlyvariables.yaml 
+  tasks:
+    -  name: "adding the variables"
+       ansible.builtin.debug:
+       msg:
+        - "this is the data" 
