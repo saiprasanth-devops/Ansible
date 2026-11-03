@@ -1,0 +1,17 @@
+- name: "this is using the inventaory file"
+  hosts: local
+  connection: local
+  tasks:
+    - name: "this is the dnf module"
+      # - name: Install Nginx using the dnf module
+      ansible.builtin.dnf:
+        name: nginx
+        state: present
+
+
+    - name: "this is to start the nginx"
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
+
