@@ -1,0 +1,8 @@
+- name: "to ytest the user with sudo"
+  hosts: local
+  become: yes
+  connection: local
+  tasks:
+    - name: "check the sudo and how to print the data"
+      ansible.builtin.debug:
+        msg: "Hello, World1!"
