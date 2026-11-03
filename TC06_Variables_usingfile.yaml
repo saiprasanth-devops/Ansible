@@ -7,4 +7,4 @@
     -  name: "adding the variables"
        ansible.builtin.debug:
         msg:
-        - "this is the data" 
+        - "this is the {{ data }}" 
