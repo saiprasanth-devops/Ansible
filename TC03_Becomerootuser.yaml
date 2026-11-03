@@ -5,4 +5,14 @@
   tasks:
     - name: "check the sudo and how to print the data"
       ansible.builtin.debug:
-        msg: "Hello, World1!"
+        msg: "Hello, World1!"  
+
+
+- name: "playbook 2"
+  hosts: local
+  connection: local
+  becomes: yes
+  tasks:
+    - name: "check the sudo and for the task2"
+      ansible.builtin.debug:
+        msg: "Hello this is the second one"
