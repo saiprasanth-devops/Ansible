@@ -1,0 +1,9 @@
+- name: "this code is used to install in the server"
+  hosts: frontend
+  become: yes
+  tasks:
+    - name: "install the nginx in the server"
+      ansible.builtin.package:
+        name: nginx
+        state: present
+        
