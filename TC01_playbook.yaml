@@ -1,0 +1,7 @@
+- name: just test it
+  host: localhost
+  connection: localhost
+  task:
+  - name: ping the localhost
+    ansible.builtin.ping:
+     
