@@ -1,0 +1,17 @@
+- name: "this code is used to install in the server"
+  hosts: frontend
+  become: yes
+  vars:
+    data: hello1
+    server: server1
+  tasks:
+    - name: "print the values"
+      ansible.builtin.debug:
+        msg:
+          - "The target environment is {{ data }}"
+          - "The target environment is {{ server }}"
+
+
+
+
+    
