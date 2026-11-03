@@ -2,9 +2,13 @@
   hosts: localhost
   connection: local
   tasks:
-  - name: ping the localhost
-    ansible.builtin.ping:
+    - name: ping the localhost
+      ansible.builtin.ping:
+          
     
+  
+
+       
 
 
 
